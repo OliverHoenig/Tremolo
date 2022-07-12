@@ -1,4 +1,4 @@
-![header](docs/images/tremoloRotation_1.png)
+![header with Plugin preview](docs/images/readmeHeader.png)
 # Tremolo
 This is a simple Tremolo Plugin created with [Juce](https://juce.com/).
 
@@ -54,4 +54,4 @@ Four automatable parameters:
 
 
 
- ![header](docs/images/tremoloRotation_3.png)
+ ![preview of the plugin in logic x](docs/images/tremoloLogicX.png)
