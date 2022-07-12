@@ -10,7 +10,7 @@ This is a simple Tremolo Plugin created with [Juce](https://juce.com/).
 Four automatable parameters: 
  
 * **Rate**: Tremolo frequency in Hz
-* **Phase**: Generates offset of the Termeolo effect on channels clockwise (for positive values) or counterclockwise (for negative values) by the set value in degrees.
+* **Phase**: Generates offset of the Tremolo effect on channels clockwise (for positive values) or counterclockwise (for negative values) by the set value in degrees.
 * **Depth**: Intensity of the effect in percent
 * **Bypass**: Turns effect off (or on)
 
@@ -23,7 +23,7 @@ Four automatable parameters:
 
 ### Installation:
 1. **Download** the latest [release](#releases) in the appropriate format
-2. **Move the file** into the appropriate folder of your system, so that the host (e.g. DAW) recognizes the plug-in. (See [Installation locations](#installation-locations))
+2. **Move the file** into the appropriate folder of your system, so that the host (e.g. DAW) recognizes the plug-in. (See [common installation locations](#common-installation-locations) or the documentation of your host)
 3. **Restart your host** (and **scan for new plugins** if necessary). The plugin should now be recognized and usable in the host.
 
 ### Releases
@@ -32,7 +32,7 @@ Four automatable parameters:
 | v1.0    	| AU     	| [Download](https://github.com/OliverHoenig/Tremolo/raw/main/Releases/v1.0/Tremolo.component.zip)	|
 |         	| VST3   	| [Download](https://github.com/OliverHoenig/Tremolo/raw/main/Releases/v1.0/Tremolo.vst3.zip)	|
 
-### Installation locations:
+### Common installation locations:
 
 
 **_macOS_**
