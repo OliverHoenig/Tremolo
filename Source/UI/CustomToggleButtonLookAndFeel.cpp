@@ -16,8 +16,7 @@ void CustomToggleButtonLookAndFeel::drawToggleButton (juce::Graphics& g, juce::T
 {
     auto fontSize = juce::jmin (15.0f, (float) button.getHeight() * 0.75f);
     auto tickWidth = fontSize * 1.1f;
-    //auto tickWidth = fontSize * 2f;
-
+    
     drawTickBox (g, button, ((float) button.getWidth()/2.0 - tickWidth/2), ((float) button.getHeight() - tickWidth) * 0.5f,
                  tickWidth, tickWidth,
                  button.getToggleState(),
@@ -25,18 +24,8 @@ void CustomToggleButtonLookAndFeel::drawToggleButton (juce::Graphics& g, juce::T
                  shouldDrawButtonAsHighlighted,
                  shouldDrawButtonAsDown);
 
-    //g.setColour (button.findColour (juce::ToggleButton::textColourId));
-    //g.setFont (fontSize);
-
     if (! button.isEnabled())
         g.setOpacity (0.5f);
-
-    /*
-    g.drawFittedText (button.getButtonText(),
-                      button.getLocalBounds().withTrimmedLeft (juce::roundToInt (tickWidth) + 10)
-                                             .withTrimmedRight (2),
-                      juce::Justification::centredLeft, 10);
-     */
 }
 
 void CustomToggleButtonLookAndFeel::drawTickBox (juce::Graphics& g, juce::Component& component,

@@ -21,12 +21,8 @@ void CustomRotaryMiddleSliderLookAndFeel::drawRotarySlider (juce::Graphics& g, i
     auto outline = juce::Colour(HEX_COLOUR_DIAL_BACK);
     auto fill_hightlight    = juce::Colour(HEX_COLOUR_DIAL_FRONT_HIGHLIGHT);
     auto fill_backlight    = juce::Colour(HEX_COLOUR_DIAL_FRONT_BACKLIGHT);
-
     auto bounds = juce::Rectangle<int> (x, y, width, height).toFloat().reduced (10);
-
     auto radius = juce::jmin (bounds.getWidth(), bounds.getHeight()) / 2.0f;
-    //auto toAngle = rotaryStartAngle + sliderPos * (rotaryEndAngle - rotaryStartAngle);
-    //auto lineW = juce::jmin (8.0f, radius * 0.5f);
     auto lineW = 3.0f;
     auto arcRadius = radius - lineW * 0.5f;
 
@@ -62,15 +58,5 @@ void CustomRotaryMiddleSliderLookAndFeel::drawRotarySlider (juce::Graphics& g, i
                 g.setOpacity(sliderPos);
                 g.strokePath(valueArc2, juce::PathStrokeType (lineW, juce::PathStrokeType::curved, juce::PathStrokeType::rounded));
             }
-    
-    //setColour(juce::Slider::ColourIds::textBoxOutlineColourId, juce::Colour(HEX_COLOUR_BACKGROUND));
-    /*
-    auto thumbWidth = lineW * 2.0f;
-    juce::Point<float> thumbPoint (bounds.getCentreX() + arcRadius * std::cos (toAngle - juce::MathConstants<float>::halfPi),
-                             bounds.getCentreY() + arcRadius * std::sin (toAngle - juce::MathConstants<float>::halfPi));
-
-    g.setColour (slider.findColour (juce::Slider::thumbColourId));
-    g.fillEllipse (juce::Rectangle<float> (thumbWidth, thumbWidth).withCentre (thumbPoint));
-    */
 }
 

@@ -37,7 +37,6 @@ private:
     CustomRotarySliderLookAndFeel customRotarySliderLookAndFeel;
     CustomRotaryMiddleSliderLookAndFeel customRotaryMiddleSliderLookAndFeel;
 
-    
     juce::Label label;
     
     std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> sliderAttachment;

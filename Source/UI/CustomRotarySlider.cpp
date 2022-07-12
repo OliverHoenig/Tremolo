@@ -26,7 +26,6 @@ CustomRotarySlider::CustomRotarySlider(
     sliderAttachment = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(apvts, sliderID, slider);
     
     //==============Slider Setup===========================
-    //slider.setValue(defaultValue);
     slider.setRange (min, max, stepSize);
     slider.setTitle(sliderName);
     
@@ -40,7 +39,6 @@ CustomRotarySlider::CustomRotarySlider(
     slider.setSliderStyle (juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
     
     //==============Text Box===============================
-    //slider.setTextBoxStyle(juce::Slider::TextEntryBoxPosition::TextBoxBelow, false, 50, 20);
     slider.setTextBoxStyle(juce::Slider::TextEntryBoxPosition::TextBoxAbove, false, 100, 20);
     slider.setTextValueSuffix(textboxSuffix);
     
@@ -68,8 +66,6 @@ void CustomRotarySlider::paint (juce::Graphics& g)
        You should replace everything in this method with your own
        drawing code..
     */
-
-    //g.fillAll(juce::Colours::black);
 }
 
 void CustomRotarySlider::resized()
@@ -78,6 +74,5 @@ void CustomRotarySlider::resized()
     // components that your component contains..
 
     slider.setBounds(getWidth() / 2 - SIZE_ROTARYSILDER/2, 18, SIZE_ROTARYSILDER, SIZE_ROTARYSILDER);
-
 }
 
