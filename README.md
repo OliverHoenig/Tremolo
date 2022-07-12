@@ -18,9 +18,8 @@ Four automatable parameters:
 
 ### Supported formats:
 
-* VST
-* VST3
-* AU
+* VST3 [Download](Released/v1.0/Tremolo.vst3.zip)
+* AU [Download](Released/v1.0/Tremolocomponent.zip)
 
 ### Installation:
 1. Go to the **"Release"-folder** and download the format that suits you best
