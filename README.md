@@ -18,18 +18,24 @@ Four automatable parameters:
 
 ### Supported formats:
 
-* VST3 [Download](https://github.com/OliverHoenig/Tremolo/raw/main/Releases/v1.0/Tremolo.vst3.zip)
+* VST3 [(Download lates version)](https://github.com/OliverHoenig/Tremolo/raw/main/Releases/v1.0/Tremolo.vst3.zip)
 * AU [Download](https://github.com/OliverHoenig/Tremolo/raw/main/Releases/v1.0/Tremolo.component.zip)
 
 ### Installation:
-1. Go to the **"Release"-folder** and download the format that suits you best
-2. **Move the file** into the appropriate folder of your host (e.g. DAW), so that it recognizes the plug-in. (See [Installation locations](#installation-locations))
-3. **Restart your host** and **scan new plugins** if necessary. The plugin should now be recognized and usable in the host.
+1. **Download** the latest [release](#releases) in the appropriate format
+2. **Move the file** into the appropriate folder of your system, so that the host (e.g. DAW) recognizes the plug-in. (See [Installation locations](#installation-locations))
+3. **Restart your host** (and **scan for new plugins** if necessary). The plugin should now be recognized and usable in the host.
+
+### Releases
+| Version 	| Format 	|   Link   	|
+|:-------:	|:------:	|:--------:	|
+| v1.0    	| AU     	| [Download](https://github.com/OliverHoenig/Tremolo/raw/main/Releases/v1.0/Tremolo.component.zip)	|
+|         	| VST3   	| [Download](https://github.com/OliverHoenig/Tremolo/raw/main/Releases/v1.0/Tremolo.vst3.zip)	|
 
 ### Installation locations:
 
 
-**_MacOS_**
+**_macOS_**
 
 | Format | Direcotry Type |           Mac Installation Direcotry           |
 |:------:|:--------------:|:----------------------------------------------:|
