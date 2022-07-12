@@ -18,8 +18,8 @@ Four automatable parameters:
 
 ### Supported formats:
 
-* VST3 [(Download lates version)](https://github.com/OliverHoenig/Tremolo/raw/main/Releases/v1.0/Tremolo.vst3.zip)
-* AU [Download](https://github.com/OliverHoenig/Tremolo/raw/main/Releases/v1.0/Tremolo.component.zip)
+* VST3 
+* AU
 
 ### Installation:
 1. **Download** the latest [release](#releases) in the appropriate format
@@ -39,8 +39,6 @@ Four automatable parameters:
 
 | Format | Direcotry Type |           Mac Installation Direcotry           |
 |:------:|:--------------:|:----------------------------------------------:|
-| VST    | User           | ~/Library/Audio/Plug-Ins/VST                   |
-|        | System         | Macintosh HD/Library/Audio/Plug-Ins/VST        |
 | VST3   | User           | ~/Library/Audio/Plug-Ins/VST3                  |
 |        | System         | Macintosh HD/Library/Audio/Plug-Ins/VST3       |
 | AU     | User           | ~/Library/Audio/Plug-Ins/Components            |
@@ -50,10 +48,6 @@ Four automatable parameters:
 
 | Format 	| Direcotry Type 	|          Mac Installation Direcotry          	|
 |:------:	|:--------------:	|:--------------------------------------------:	|
-| VST    	| Shared         	| C:\Program Files\VstPlugins                  	|
-|        	| Shared         	| C:\Program Files\Steinberg\VstPlugins        	|
-|        	| Shared         	| C:\Program Files\Common Files\VST2           	|
-|        	| Shared         	| C:\Program Files\Common Files\Steinberg\VST2 	|
 | VST3   	| Shared         	| C:\Program Files\Common Files\VST3           	|
 
 
