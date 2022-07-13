@@ -18,8 +18,8 @@ Four automatable parameters:
 
 ### Supported formats:
 
-* VST3 
-* AU
+* VST3 (macOS)
+* AU (macOS)
 
 ### Installation:
 1. **Download** the latest [release](#releases) in the appropriate format
@@ -27,10 +27,10 @@ Four automatable parameters:
 3. **Restart your host** (and **scan for new plugins** if necessary). The plugin should now be recognized and usable in the host.
 
 ### Releases
-| Version 	| Format 	|   Link   	|
-|:-------:	|:------:	|:--------:	|
-| v1.0    	| AU     	| [Download](https://github.com/OliverHoenig/Tremolo/raw/main/Releases/v1.0/Tremolo.component.zip)	|
-|         	| VST3   	| [Download](https://github.com/OliverHoenig/Tremolo/raw/main/Releases/v1.0/Tremolo.vst3.zip)	|
+| Version 	| Format 	|  macOS   |  Windows   |
+|:-------:	|:------:	|:--------:|:--------:|
+| v1.0    	| AU     	| [Download](https://github.com/OliverHoenig/Tremolo/raw/main/Releases/v1.0/Tremolo.component.zip)| - |
+|         	| VST3   	| [Download](https://github.com/OliverHoenig/Tremolo/raw/main/Releases/v1.0/Tremolo.vst3.zip)| - |
 
 ### Common installation locations:
 
