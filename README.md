@@ -18,7 +18,7 @@ Four automatable parameters:
 
 ### Supported formats:
 
-* VST3 (macOS)
+* VST3 (macOS, Windows)
 * AU (macOS)
 
 ### Installation:
@@ -29,8 +29,8 @@ Four automatable parameters:
 ### Releases
 | Version 	| Format 	|  macOS   |  Windows   |
 |:-------:	|:------:	|:--------:|:--------:|
-| v1.0    	| AU     	| [Download](https://github.com/OliverHoenig/Tremolo/raw/main/Releases/v1.0/Tremolo.component.zip)| - |
-|         	| VST3   	| [Download](https://github.com/OliverHoenig/Tremolo/raw/main/Releases/v1.0/Tremolo.vst3.zip)| - |
+| v1.0    	| AU     	| [Download](https://github.com/OliverHoenig/Tremolo/raw/main/Releases/v1.0/macOS/Tremolo.component.zip)| - |
+|         	| VST3   	| [Download](https://github.com/OliverHoenig/Tremolo/raw/main/Releases/v1.0/macOS/Tremolo.vst3.zip)| [Download](https://github.com/OliverHoenig/Tremolo/raw/main/Releases/v1.0/Windows/Tremolo.vst3.zip) |
 
 ### Common installation locations:
 
